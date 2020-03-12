@@ -9,8 +9,9 @@
 <link rel="stylesheet" href="/resource/common.css">
 </head>
 <body>
-	<h1>게시물 리스트</h1>
-	<h2>총 게시물 개수 : ${totalCount}</h2>
+	<h1 class="con">게시물 리스트</h1>
+	<h2 class="con">총 게시물 개수 : ${totalCount}</h2>
+	<div class="con">
 	<c:forEach items="${list}" var="article">
 		<section>
 			번호 : ${article.id},
@@ -18,6 +19,10 @@
 		</section>
 		<hr>
 	</c:forEach>
+	</div>
+	
+	<div class="con btns">
 	<a href="./add">게시물 작성</a>
+	</div>
 </body>
 </html>
