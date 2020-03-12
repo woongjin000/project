@@ -9,6 +9,7 @@
 </head>
 <body>
 	<h1>게시물 리스트</h1>
+	<h2>총 게시물 개수 : ${totalCount}</h2>
 	<c:forEach items="${list}" var="article">
 		<section>
 			번호 : ${article.id},

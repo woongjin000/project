@@ -14,4 +14,9 @@
 		title = #{title},
 		body = #{body}
 	</insert>
+	
+	<select id="getTotalCount" parameterType="map" resultType="int">
+		SELECT COUNT(*)
+		FROM article
+	</select>
 </mapper>
