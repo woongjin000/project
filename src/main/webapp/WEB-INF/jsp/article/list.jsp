@@ -17,5 +17,6 @@
 		</section>
 		<hr>
 	</c:forEach>
+	<a href="./add">게시물 작성</a>
 </body>
 </html>
