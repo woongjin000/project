@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="/resource/common.css">
 </head>
 <body>
 	<h1>게시물 리스트</h1>
