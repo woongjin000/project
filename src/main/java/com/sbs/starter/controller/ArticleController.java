@@ -21,4 +21,9 @@ public class ArticleController {
 		model.addAttribute("list", list);
 		return "article/list";
 	}
+	
+	@RequestMapping("article/add")
+	public String showAdd() {
+		return "article/add";
+	}
 }
