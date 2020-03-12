@@ -62,4 +62,11 @@ public class ArticleController {
 		sb.append("</script>");
 		return sb.toString();
 	}
+	
+	@RequestMapping("article/modify")
+	public String showModify(Model model, long id) {
+		Article article = articleService.getOne(id);
+		model.addAttribute("article", article);
+		return "article/modify";
+	}
 }
