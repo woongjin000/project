@@ -1,14 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet" href="/resource/common.css">
-</head>
-<body>
-	<h1 class="con">게시물 작성</h1>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<c:set var="pageName" value="게시물 작성"/>
+<%@ include file="../part/head.jspf" %>
 	<script>
 	function submitAddForm(form) {
 	form.title.value = form.title.value.trim();
@@ -50,5 +44,4 @@ return false;
 				</div>
 		</div>
 	</form>
-</body>
-</html>
+<%@ include file="../part/foot.jspf"%>
