@@ -7,6 +7,7 @@
 		번호 : ${article.id},
 		제목 : ${article.title},
 		내용 : ${article.body}
+		조회수 : ${article.hit}
 	</section>
 	
 	<div class="btns con">
