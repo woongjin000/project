@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="/resource/common.css">
 </head>
 <body>
-	<h1>게시물 작성</h1>
+	<h1 class="con">게시물 작성</h1>
 	<script>
 	function submitAddForm(form) {
 	form.title.value = form.title.value.trim();
